@@ -83,6 +83,12 @@
             </intent-filter>
         </receiver>
 
+        <receiver android:name="com.freshchat.consumer.sdk.receiver.FreshchatNotificationClickReceiver">
+            <intent-filter>
+                <action android:name="com.freshchat.consumer.sdk.actions.NotificationClicked" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
