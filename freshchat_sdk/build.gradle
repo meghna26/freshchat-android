@@ -28,8 +28,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 56
-        versionName "1.5.6"
+        versionCode 57
+        versionName "1.5.7"
         consumerProguardFiles 'consumer-proguard-rules.pro'
         buildConfigField "long", 'BUILT_AT', System.currentTimeMillis() + 'L'
         buildConfigField "String", "SCM_REV", getScmRevision()

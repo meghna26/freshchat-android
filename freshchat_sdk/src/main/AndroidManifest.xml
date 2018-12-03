@@ -74,18 +74,13 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.LOCALE_CHANGED" />
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="com.freshchat.consumer.sdk.actions.NotificationClicked" />
             </intent-filter>
         </receiver>
 
         <receiver android:name="com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
-        </receiver>
-
-        <receiver android:name="com.freshchat.consumer.sdk.receiver.FreshchatNotificationClickReceiver">
-            <intent-filter>
-                <action android:name="com.freshchat.consumer.sdk.actions.NotificationClicked" />
             </intent-filter>
         </receiver>
 
