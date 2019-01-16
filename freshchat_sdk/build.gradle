@@ -28,7 +28,7 @@ android {
     defaultConfig {
         minSdkVersion 16
         versionCode 220
-        versionName "2.2.0"
+        versionName "2.2.0-Test"
         targetSdkVersion 26
         consumerProguardFiles 'consumer-proguard-rules.pro'
         buildConfigField "long", 'BUILT_AT', System.currentTimeMillis() + 'L'
